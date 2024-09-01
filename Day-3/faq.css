@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    margin: 25px;
+    padding: 75px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,lightblue,white);
+}
+header{
+    font-family: "Montserrat",sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: snow;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: dimgray;
+    margin-bottom: 15px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+.faq-question:hover{
+    background-color: #e6e6e6;
+}
+.faq-toggle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #666;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: dimgray;
+    background-color: #fafafa;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1px;
+}
